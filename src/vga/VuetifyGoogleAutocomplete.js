@@ -403,6 +403,17 @@ export default {
       default: false,
     },
     /**
+     * Maps to Vuetify 'persistent-placeholder' prop.
+     *
+     * @alias module:vuetify-google-autocomplete.props.persistent-placeholder
+     * @see {@link https://vuetifyjs.com/en/components/text-fields}
+     * @type {Boolean}
+     */
+    persistentPlaceholder: {
+      type: Boolean,
+      default: false,
+    },
+    /**
      * Maps to Vuetify 'persistent-hint' prop.
      *
      * @alias module:vuetify-google-autocomplete.props.persistent-hint
@@ -413,6 +424,7 @@ export default {
       type: Boolean,
       default: false,
     },
+
     /**
      * Maps to Vuetify 'placeholder' prop.
      *
@@ -1120,6 +1132,7 @@ export default {
         'no-resize': self.noResize,
         outlined: self.outlined,
         'persistent-hint': self.persistentHint,
+        'persistent-placeholder': self.persistentPlaceholder,        
         placeholder: self.placeholder,
         prefix: self.prefix,
         'prepend-icon': self.prependIcon,
