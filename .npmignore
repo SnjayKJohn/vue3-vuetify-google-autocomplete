@@ -11,3 +11,4 @@ test/
 example/
 node_modules/
 src/
+dist/*.html

@@ -1,8 +1,10 @@
 import { createLocalVue, mount } from 'vue-test-utils';
+import Vuetify from 'vuetify';
 import sinon from 'sinon';
 import Vga from '@/index';
 
 const localVue = createLocalVue();
+let vuetify;
 
 const propData = {
   id: 'input-field-id',
@@ -12,8 +14,10 @@ beforeEach(() => {
   jest.resetModules();
   delete window.google;
   delete window.maps;
+  vuetify = new Vuetify();
   wrapper = mount(Vga, {
     localVue,
+    vuetify,
     propsData: propData,
   });
 });
@@ -37,6 +41,7 @@ describe('Ensure Lifecycle hooks behave as expected', () => {
       };
       wrapper = mount(Vga, {
         localVue,
+        vuetify,
         propsData: props,
       });
       expect(wrapper.vm.autocompleteText).toBe('Default v-model value');
@@ -52,6 +57,7 @@ describe('Ensure Lifecycle hooks behave as expected', () => {
       const setupGoogleSpy = sinon.spy();
       wrapper = mount(Vga, {
         localVue,
+        vuetify,
         propsData: propData,
         methods: {
           setupGoogle: setupGoogleSpy,
@@ -66,6 +72,7 @@ describe('Ensure Lifecycle hooks behave as expected', () => {
       const setupGoogleSpy = sinon.spy();
       wrapper = mount(Vga, {
         localVue,
+        vuetify,
         propsData: propData,
         methods: {
           setupGoogle: setupGoogleSpy,
@@ -81,6 +88,7 @@ describe('Ensure Lifecycle hooks behave as expected', () => {
       const setupGoogleSpy = sinon.spy();
       wrapper = mount(Vga, {
         localVue,
+        vuetify,
         propsData: propData,
         methods: {
           setupGoogle: setupGoogleSpy,
