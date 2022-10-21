@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1666335880625" clover="3.2.0">
+  <project timestamp="1666335880625" name="All files">
+    <metrics statements="171" coveredstatements="0" conditionals="97" coveredconditionals="0" methods="60" coveredmethods="0" elements="328" coveredelements="0" complexity="0" loc="171" ncloc="171" packages="1" files="3" classes="3">
+      <file name="VuetifyGoogleAutocomplete.js" path="/Users/madimetjashika/Documents/Documents – Madimetja’s MacBook Pro (2)/personal-projects/personal/vuetify-google-autocomplete-webpack/src/vga/VuetifyGoogleAutocomplete.js">
+        <metrics statements="125" coveredstatements="0" conditionals="67" coveredconditionals="0" methods="54" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="240" count="0" type="stmt"/>
+        <line num="370" count="0" type="stmt"/>
+        <line num="547" count="0" type="stmt"/>
+        <line num="653" count="0" type="stmt"/>
+        <line num="685" count="0" type="stmt"/>
+        <line num="741" count="0" type="stmt"/>
+        <line num="784" count="0" type="stmt"/>
+        <line num="786" count="0" type="cond" truecount="0" falsecount="5"/>
+        <line num="788" count="0" type="stmt"/>
+        <line num="790" count="0" type="stmt"/>
+        <line num="793" count="0" type="stmt"/>
+        <line num="806" count="0" type="stmt"/>
+        <line num="807" count="0" type="stmt"/>
+        <line num="815" count="0" type="stmt"/>
+        <line num="823" count="0" type="stmt"/>
+        <line num="831" count="0" type="stmt"/>
+        <line num="839" count="0" type="stmt"/>
+        <line num="847" count="0" type="stmt"/>
+        <line num="855" count="0" type="stmt"/>
+        <line num="863" count="0" type="stmt"/>
+        <line num="871" count="0" type="stmt"/>
+        <line num="880" count="0" type="stmt"/>
+        <line num="888" count="0" type="stmt"/>
+        <line num="889" count="0" type="stmt"/>
+        <line num="897" count="0" type="stmt"/>
+        <line num="905" count="0" type="stmt"/>
+        <line num="914" count="0" type="stmt"/>
+        <line num="922" count="0" type="stmt"/>
+        <line num="923" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="924" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="925" count="0" type="stmt"/>
+        <line num="926" count="0" type="stmt"/>
+        <line num="932" count="0" type="stmt"/>
+        <line num="933" count="0" type="stmt"/>
+        <line num="937" count="0" type="stmt"/>
+        <line num="938" count="0" type="stmt"/>
+        <line num="945" count="0" type="stmt"/>
+        <line num="946" count="0" type="stmt"/>
+        <line num="948" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="949" count="0" type="stmt"/>
+        <line num="952" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="953" count="0" type="stmt"/>
+        <line num="958" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="959" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="960" count="0" type="stmt"/>
+        <line num="962" count="0" type="stmt"/>
+        <line num="967" count="0" type="stmt"/>
+        <line num="968" count="0" type="stmt"/>
+        <line num="974" count="0" type="stmt"/>
+        <line num="975" count="0" type="stmt"/>
+        <line num="978" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="981" count="0" type="stmt"/>
+        <line num="982" count="0" type="stmt"/>
+        <line num="985" count="0" type="stmt"/>
+        <line num="987" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="988" count="0" type="stmt"/>
+        <line num="989" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="990" count="0" type="stmt"/>
+        <line num="993" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="995" count="0" type="stmt"/>
+        <line num="996" count="0" type="stmt"/>
+        <line num="998" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="999" count="0" type="stmt"/>
+        <line num="1000" count="0" type="stmt"/>
+        <line num="1003" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="1004" count="0" type="stmt"/>
+        <line num="1005" count="0" type="stmt"/>
+        <line num="1009" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="1010" count="0" type="stmt"/>
+        <line num="1012" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="1013" count="0" type="stmt"/>
+        <line num="1015" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="1016" count="0" type="stmt"/>
+        <line num="1020" count="0" type="stmt"/>
+        <line num="1023" count="0" type="stmt"/>
+        <line num="1024" count="0" type="stmt"/>
+        <line num="1025" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="1030" count="0" type="stmt"/>
+        <line num="1040" count="0" type="stmt"/>
+        <line num="1053" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="1054" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="1055" count="0" type="stmt"/>
+        <line num="1056" count="0" type="stmt"/>
+        <line num="1058" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="1059" count="0" type="stmt"/>
+        <line num="1071" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="1072" count="0" type="stmt"/>
+        <line num="1079" count="0" type="stmt"/>
+        <line num="1080" count="0" type="stmt"/>
+        <line num="1088" count="0" type="stmt"/>
+        <line num="1094" count="0" type="stmt"/>
+        <line num="1095" count="0" type="stmt"/>
+        <line num="1096" count="0" type="stmt"/>
+        <line num="1176" count="0" type="stmt"/>
+        <line num="1179" count="0" type="stmt"/>
+        <line num="1182" count="0" type="stmt"/>
+        <line num="1185" count="0" type="stmt"/>
+        <line num="1188" count="0" type="stmt"/>
+        <line num="1191" count="0" type="stmt"/>
+        <line num="1194" count="0" type="stmt"/>
+        <line num="1197" count="0" type="stmt"/>
+        <line num="1200" count="0" type="stmt"/>
+        <line num="1203" count="0" type="stmt"/>
+        <line num="1207" count="0" type="stmt"/>
+        <line num="1220" count="0" type="stmt"/>
+        <line num="1230" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="1237" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="1238" count="0" type="stmt"/>
+        <line num="1239" count="0" type="stmt"/>
+        <line num="1246" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="1247" count="0" type="stmt"/>
+        <line num="1255" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="1256" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="1257" count="0" type="stmt"/>
+        <line num="1259" count="0" type="stmt"/>
+        <line num="1268" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="1269" count="0" type="stmt"/>
+        <line num="1272" count="0" type="stmt"/>
+        <line num="1281" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="1282" count="0" type="stmt"/>
+        <line num="1287" count="0" type="stmt"/>
+        <line num="1294" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="1295" count="0" type="stmt"/>
+      </file>
+      <file name="helper.js" path="/Users/madimetjashika/Documents/Documents – Madimetja’s MacBook Pro (2)/personal-projects/personal/vuetify-google-autocomplete-webpack/src/vga/helper.js">
+        <metrics statements="31" coveredstatements="0" conditionals="22" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="20" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="21" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="54" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="58" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+      </file>
+      <file name="index.js" path="/Users/madimetjashika/Documents/Documents – Madimetja’s MacBook Pro (2)/personal-projects/personal/vuetify-google-autocomplete-webpack/src/vga/index.js">
+        <metrics statements="15" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="5" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="53" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="54" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="59" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="60" count="0" type="stmt"/>
+      </file>
+    </metrics>
+  </project>
+</coverage>
