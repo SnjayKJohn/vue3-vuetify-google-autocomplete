@@ -2,18 +2,18 @@
   <div>
     <v-app-bar color="blue-grey lighten-3" dark clipped-right app>
       <v-toolbar-title>Vuetify Google Autocomplete - Page 1</v-toolbar-title>
-      <v-btn @click="navigatePreviousPage()" icon><v-icon>navigate_before</v-icon></v-btn>
-      <v-btn @click="navigateNextPage()" icon><v-icon>navigate_next</v-icon></v-btn>
+      <v-btn @click="navigatePreviousPage()" icon><v-icon>mdi-chevron-left</v-icon></v-btn>
+      <v-btn @click="navigateNextPage()" icon><v-icon>mdi-chevron-right</v-icon></v-btn>
       <v-spacer></v-spacer>
       <v-tooltip left></v-tooltip>
-      <v-btn :href="docsLink" icon><v-icon>chrome_reader_mode</v-icon></v-btn>
+      <v-btn :href="docsLink" icon><v-icon>mdi-chrome-reader-mode</v-icon></v-btn>
       <v-btn :href="githubLink" icon><v-icon>fa-github</v-icon></v-btn>
       <v-btn :href="npmLink" icon>
         <img :src="npmIcon" class="icon icons8-NPM" width="40" height="40">
       </v-btn>
       <v-app-bar-nav-icon @click.stop="drawerRight = !drawerRight"></v-app-bar-nav-icon>
     </v-app-bar>
-    <v-content>
+    <v-main>
       <v-container grid-list-md text-xs-center>
         <v-layout row wrap>
           <v-flex xs12>
@@ -25,7 +25,7 @@
           </v-flex>
         </v-layout>
       </v-container>
-    </v-content>
+    </v-main>
     <v-footer color="blue-grey lighten-3" class="white--text" app>
       <span>Vuetify Google Autocomplete</span>
       <v-spacer></v-spacer>

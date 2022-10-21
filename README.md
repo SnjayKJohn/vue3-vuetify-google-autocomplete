@@ -2,13 +2,15 @@
 
 A Vuetify ready Vue.js (2.x) autosuggest component for the Google Maps Places API.
 
-[![Build Status](https://travis-ci.org/MadimetjaShika/vuetify-google-autocomplete.svg?branch=dev)](https://travis-ci.org/MadimetjaShika/vuetify-google-autocomplete)
+![build](https://github.com/github/docs/actions/workflows/test-and-build.yml/badge.svg)
+![release](https://github.com/github/docs/actions/workflows/release.yml/badge.svg)
+![gh-pages](https://github.com/github/docs/actions/workflows/static-gh-pages.yml.yml/badge.svg)
 
 ## Versions
 
 Latest Beta: 2.0.0-beta.8
 
-Latest Stable: 2.0.1
+Latest Stable: 2.1.2
 
 See [releases](https://github.com/MadimetjaShika/vuetify-google-autocomplete/releases) for details.
 
