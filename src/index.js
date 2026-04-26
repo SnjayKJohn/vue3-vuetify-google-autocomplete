@@ -12,7 +12,7 @@ if (typeof window !== 'undefined') {
   };
 }
 
-VuetifyGoogleAutocomplete.install = (Vue, options) => {
+VuetifyGoogleAutocomplete.install = (app, options) => {
   // Set defaults
   // eslint-disable-next-line
   options = {
@@ -44,8 +44,10 @@ VuetifyGoogleAutocomplete.install = (Vue, options) => {
     ...options,
   };
 
+  app.config.globalProperties.$vueGoogleMapsCompatibility = options.vueGoogleMapsCompatibility;
+  
   // add Vue.$vueGoogleMapsCompatibility flag to be used for deferred loading via vue2-google-maps lazy loader
-  Vue.mixin({
+  app.mixin({
     created() {
       this.$vueGoogleMapsCompatibility = options.vueGoogleMapsCompatibility;
     },
@@ -58,7 +60,7 @@ VuetifyGoogleAutocomplete.install = (Vue, options) => {
   }
 
   if (options.installComponents) {
-    Vue.component(VuetifyGoogleAutocomplete.name, VuetifyGoogleAutocomplete);
+    app.component(VuetifyGoogleAutocomplete.name, VuetifyGoogleAutocomplete);
   }
 };
 

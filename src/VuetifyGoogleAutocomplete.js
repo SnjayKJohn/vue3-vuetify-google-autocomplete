@@ -1,5 +1,4 @@
-import { VTextField } from 'vuetify/lib';
-
+import { h } from 'vue';
 /**
  * @module vuetify-google-autocomplete
  * @author Madimetja Shika <madi@mjshika.xyz>
@@ -1090,9 +1089,9 @@ export default {
    * @mixin
    * @desc See code.
    */
-  render(createElement) {
+  render() {
     const self = this;
-    return createElement(
+    return h(
       'v-text-field',
       {
         ref: 'textField',
@@ -1218,7 +1217,7 @@ export default {
         'prepend-inner',
         'progress',
       ]
-        .map((slot) => createElement('template', { slot }, [this.$slots[slot]])),
+        .map((slot) => h('template', { slot }, [this.$slots[slot]])),
     );
   },
   /**
